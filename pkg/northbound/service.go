@@ -28,8 +28,7 @@ var log = logging.GetLogger("northbound", "perf")
 
 // NewService returns a new topo Service
 func NewService() northbound.Service {
-	return &Service{
-	}
+	return &Service{}
 }
 
 // Service is a Service implementation for administration.
